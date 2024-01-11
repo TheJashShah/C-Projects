@@ -101,3 +101,5 @@ int main() {
 
     return 0;
 }
+
+// Structs, and structs in functions, conquered!
