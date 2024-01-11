@@ -147,3 +147,5 @@ int main(){
 
     return 0;
 }
+
+// This project came to mind while studying Digital Systems.
