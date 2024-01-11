@@ -183,3 +183,5 @@ int main(){
 
     return 0;
 }
+
+// Somehow, this feels a lot cooler than the one I made in python.
