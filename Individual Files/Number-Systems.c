@@ -167,3 +167,5 @@ int main(){
     return 0;
 
 }
+
+// Finally, Ive got a hang of when and how to use the mod operator.
