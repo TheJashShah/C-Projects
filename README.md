@@ -1,4 +1,4 @@
-# C-All-Projects
+# C-Projects
  All of my projects in C, upto date.
 
 # Individual Files
