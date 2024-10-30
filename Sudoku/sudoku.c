@@ -132,7 +132,7 @@ void TakeInput(int board[][9], int *moves, int rows[30], int cols[30]){
         }
         else{
             printf("Wrong Move.\n");
-            TakeInput(board, moves, rows, board);
+            TakeInput(board, moves, rows, cols);
         }
     }
 
