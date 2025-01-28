@@ -3,6 +3,11 @@
 
 # Individual Files
  These were made while I was still learning the language.
+ Includes:
+  1. Logic-Gates
+  2. Number-Guesser
+  3. Number-Systems
+  4. Wordle
 
 # Blackjack
  A simple blackjack single-player game having only the player and the dealer.
