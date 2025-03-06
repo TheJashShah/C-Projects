@@ -1,6 +1,12 @@
 # C-Projects
  All of my projects in C, upto date.
 
+# Algorithms
+ Includes C implementation of Booth's algorithm and an implementation of Hashmap in C in the Counter.c
+
+# Blackjack
+ A simple blackjack single-player game having only the player and the dealer.
+
 # Individual Files
  These were made while I was still learning the language.
  Includes:
@@ -8,9 +14,6 @@
   2. Number-Guesser
   3. Number-Systems
   4. Wordle
-
-# Blackjack
- A simple blackjack single-player game having only the player and the dealer.
 
 # Inventory-System
  This was made to conclude the learning part, and make myself sure that structs are not my enemy.
