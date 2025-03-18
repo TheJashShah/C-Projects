@@ -7,6 +7,9 @@
 # Blackjack
  A simple blackjack single-player game having only the player and the dealer.
 
+# Image-To-Ascii
+ Using stbi C library, a program that converts an image to ascii art. Currently does'nt work for all images.
+
 # Individual Files
  These were made while I was still learning the language.
  Includes:
