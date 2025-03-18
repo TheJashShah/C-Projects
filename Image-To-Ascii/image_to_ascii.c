@@ -33,7 +33,10 @@ So, the first three elements of data are the RGB values of the first pixel.
 
     char characters[] = {'@', '#', '$', '%', '&'};
 
-    char ascii_img[height][width];
+    char **ascii_img = (char **)malloc(height * sizeof(char *));
+    for(int i = 0; i < height; i++){
+        ascii_img[i] = (char *)malloc(width * sizeof(char));
+    }
 
     if(data){
 
@@ -48,19 +51,19 @@ So, the first three elements of data are the RGB values of the first pixel.
                     ascii_img[i / height][(i % width)] = ' ';
             }
             else if(sum <= 100){
-                ascii_img[i / height][(i % width)] = characters[0];
+                ascii_img[i / width][(i % width)] = characters[0];
             }
             else if(sum <= 150){
-                ascii_img[i / height][(i % width)] = characters[1];
+                ascii_img[i / width][(i % width)] = characters[1];
             }
             else if(sum <= 200){
-                ascii_img[i / height][(i % width)] = characters[2];
+                ascii_img[i / width][(i % width)] = characters[2];
             }
             else if(sum <= 250){
-                ascii_img[i / height][(i % width)] = characters[3];
+                ascii_img[i / width][(i % width)] = characters[3];
             }
             else{
-                ascii_img[i / height][(i % width)] = characters[4];
+                ascii_img[i / width][(i % width)] = characters[4];
             }
         }
 
@@ -76,5 +79,12 @@ So, the first three elements of data are the RGB values of the first pixel.
         printf("Image could not be loaded. \n");
     }
 
+    for(int i = 0; i < pixels; i++){
+        free(img[i]);
+    }
+
+    free(img);
+
+    stbi_image_free(data);
     return 0;
 }
